@@ -35,12 +35,12 @@ https://flames-backend-api.onrender.com/flames
 
 **Run Locally**
 1. Clone the repository:
-   git clone https://github.com/franklinMN/flames-backend-api.git
-   cd flames-backend-api
+   - git clone https://github.com/franklinMN/flames-backend-api.git
+   - cd flames-backend-api
 2. Install dependencies:
-   npm install
+   - npm install
 3. Start the server:
-   npm start
+   - npm start
 Server will run on http://localhost:3000
 
 🌐 CORS Support
@@ -68,5 +68,5 @@ fetch("https://<your-backend-url>.onrender.com/flames", {
 MIT
 
 👤 Author
-Franklin Maria Nayagam
-GitHub: @franklinMN
+- Franklin Maria Nayagam
+- GitHub: @franklinMN
