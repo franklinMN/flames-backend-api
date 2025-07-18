@@ -20,16 +20,18 @@ This is a simple Node.js + Express backend API for calculating FLAMES relationsh
 https://flames-backend-api.onrender.com/flames
 
 **Request Body (JSON):**
-
+```json
 {
   "person1": "Alice",
   "person2": "Bob"
 }
-
+```
 **Response Example:**
+```json
 {
   "result": "Friends"
 }
+```
 
 **Run Locally**
 1. Clone the repository:
@@ -45,6 +47,7 @@ Server will run on http://localhost:3000
 This API supports requests from other origins (like GitHub Pages) using the cors middleware.
 
 **🔗 Frontend Integration Example**
+```javascript
 fetch("https://<your-backend-url>.onrender.com/flames", {
   method: "POST",
   headers: {
@@ -59,6 +62,7 @@ fetch("https://<your-backend-url>.onrender.com/flames", {
 .then(data => {
   console.log(data.result); // e.g., "Friends"
 });
+```
 
 📄 License
 MIT
